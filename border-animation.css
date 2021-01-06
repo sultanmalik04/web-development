@@ -1,0 +1,54 @@
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 450px;
+    cursor: pointer;
+}
+
+.container img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 230px;
+    border-radius: 50%;
+}
+
+.c1, .c {
+    height: 400px;
+    width: 250px;
+    border: 6px solid rgb(187, 135, 235);
+    position: relative;
+    border-radius: 50%;
+    transition: 2.5s linear;
+}
+
+
+.c1 {
+    top: 18px;
+    left: 94px;
+}
+
+.c {
+    bottom: 6px;
+    right: 6px;
+    opacity: 0;
+}
+
+.c:hover {
+    opacity: 1;
+    transform: rotate(15deg);
+}
+
+@keyframes spin {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.c:hover {
+    animation: spin 8s infinite linear;
+}

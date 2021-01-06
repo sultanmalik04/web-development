@@ -15,36 +15,36 @@ body {
 }
 
 .container {
-    width: 350px;
-    height: 500px;
-    padding: 40px;
-    border-radius: 20px;
-    box-sizing: border-box;
-    background: #ecf0f3;
-    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+  width: 350px;
+  height: 500px;
+  padding: 40px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
 }
 
 .brand-logo {
-    height: 100px;
-    width: 100px;
-    margin: auto;
-    border-radius: 50%;
-    box-sizing: border-box;
-    box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
 }
 
 .brand-logo img {
-    width: 70px;
-    position: relative;
-    left: 5px;
-    top: 20px;
+  width: 70px;
+  position: relative;
+  left: 5px;
+  top: 20px;
 }
 
 .brand-title {
-    margin-top: 10px;
-    font-weight: 900;
-    font-size: 1.8rem;
-    letter-spacing: 1px;
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
 }
 
 .inputs {
